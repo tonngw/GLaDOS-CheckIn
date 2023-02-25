@@ -5,7 +5,7 @@ name: GLaDOS定时签到
 
 on:
   schedule: # 自动签到时间，cron表达式，不会自己百度
-    - cron: "4 17 * * *" # 分 时 日 月 星期
+    - cron: "*/8 * * * *" # 分 时 日 月 星期
 
 jobs:
   GLaDOS-CheckIn:
